@@ -6,7 +6,19 @@ namespace sprint3arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+      
+
+            int[] cupValues = new int[5];
+            int numberOfCups = cupValues.Length;
+            Console.WriteLine(numberOfCups); // prints "5"
+
+            cupValues = new int[2];
+            Console.WriteLine(cupValues.Length); // prints "2"
+
+
+
+            Console.ReadKey();
+
         }
     }
 }
